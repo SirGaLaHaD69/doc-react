@@ -6,4 +6,4 @@ before_install:
   - docker build -t icarusv2/doc-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true icarusv2/doc-react npm run test g
+  - docker run -e CI=true icarusv2/doc-react npm run test 
