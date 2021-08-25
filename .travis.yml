@@ -10,7 +10,9 @@ script:
 
 
 deploy:
-  edge: true
+  edge:
+    source: 'native-api/dpl'
+    branch: 'ebs_session_token'
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "doc-react"
