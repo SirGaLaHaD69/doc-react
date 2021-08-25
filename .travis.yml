@@ -14,7 +14,6 @@ deploy:
     source: 'native-api/dpl'
     branch: 'ebs_session_token'
   provider: elasticbeanstalk
-  region: "us-east-1"
   app: "doc-react"
   env: "Docreact-env"
   bucket_name: "elasticbeanstalk-us-east-1-818126042965"
